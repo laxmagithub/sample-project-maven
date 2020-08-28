@@ -15,5 +15,5 @@ pipeline {
         steps {
             mvn 'test'
         }
-    }
+    }  
   }
