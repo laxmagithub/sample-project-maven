@@ -11,6 +11,9 @@ pipeline {
         bat 'mvn clean'
       }
     }
-    
+    stage('Unit Test') {
+        steps {
+            mvn 'test'
+        }
     }
   }
